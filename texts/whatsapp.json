@@ -1,0 +1,46 @@
+{
+    "medium": "WHATSAPP",
+    "inputType": "single",
+    "project": "63e1fcacde2b476a969f1522",
+    "template": {
+        "name": "login_otp",
+        "components": [
+            {
+                "type": "BODY",
+                "text": "Dear Coca-Cola Rishta Rewards member,\n\nLog in to your Rishta Rewards account using this unique code {{1}}.",
+                "example": {
+                    "body_text": [
+                        [
+                            "12345"
+                        ]
+                    ]
+                }
+            },
+            {
+                "type": "FOOTER",
+                "text": "Regards, Coca-Cola Team"
+            },
+            {
+                "type": "BUTTONS",
+                "buttons": [
+                    {
+                        "type": "URL",
+                        "text": "Click To Redeem",
+                        "url": "https://hccbloyaltyprogram.page.link/vgNL"
+                    }
+                ]
+            }
+        ],
+        "language": "en",
+        "status": "APPROVED",
+        "category": "MARKETING",
+        "id": "679652270633902"
+    },
+    "message": "test",
+    "language": "english",
+    "numbers": "8445840329",
+    "keys": {
+        "1": "9876"
+    },
+    "schedule": "NO"
+}
